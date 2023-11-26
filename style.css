@@ -24,8 +24,8 @@ h1 {
 }
 
 .card img {
-  max-width: 100%;
-  height: auto;
+  width: 700px;
+  height: 700px;
   display: block;
   margin: 0 auto; /* Added "auto" to center the image horizontally */
   border-radius: 20px;
