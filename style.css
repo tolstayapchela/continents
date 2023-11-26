@@ -1,5 +1,5 @@
 h1 {
-  font-size: 2vw;
+  font-size: 2vh;
   text-align: center;
   color: #FFFFFF;
 }
@@ -7,12 +7,12 @@ h1 {
 .card {
   width: 100%;
   max-width: 1000px;
-  min-height: 500px;
+  height: auto;
   background-color: #FFFFFF;
   border-radius: 50px;
-  padding: 5%;
+  padding: 5vw;
   border-style: solid;
-  margin: 20px auto;
+  margin: 20px auto; /* Added "auto" to center the card horizontally */
   float: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -20,19 +20,19 @@ h1 {
 .card h2 {
   margin-top: 0;
   text-align: center;
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 .card img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto; /* Added "auto" to center the image horizontally */
   border-radius: 20px;
 }
 
 .card p {
-  margin-top: 1vw;
+  margin-top: 1vh;
   text-align: center;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(14px + 0.5vh);
 }
