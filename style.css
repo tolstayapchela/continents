@@ -34,7 +34,7 @@ h1 {
 .card p {
   margin-top: 1vw;
   text-align: center;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(2vw + 0.5vh); /* Changed calc function to use vw and vh units */
 }
 
 /* Media Queries for different screen sizes */
