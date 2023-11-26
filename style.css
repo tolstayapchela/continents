@@ -39,7 +39,7 @@ h1 {
 
 @media (max-width: 1920px) and (min-width: 320px) { 
   .card img {
-    width: 100%;
+    width: auto;
     height: auto;
   }
 }
