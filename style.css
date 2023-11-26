@@ -6,10 +6,10 @@ h1 {
 
 .card {
   width: 100%;
-  max-width: 1000px;
-  min-height: 500px;
+  max-width: 320px;
+  min-height: 480px;
   background-color: #FFFFFF;
-  border-radius: 50px;
+  border-radius: 20px;
   padding: 5vw;
   border-style: solid;
   margin: 2vw auto;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .card img {
-  width: 70vw;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -34,7 +34,7 @@ h1 {
 .card p {
   margin-top: 1vw;
   text-align: center;
-  font-size: calc(14px + 0.5vw);
+  font-size: calc(12px + 1vw);
 }
 
 @media (max-width: 600px) {
@@ -64,11 +64,12 @@ h1 {
 
 @media (min-width: 1201px) {
   .card {
-    margin: 50px auto;
+    margin: 0 auto;
+    overflow: hidden;
   }
   
   .card img {
-    width: 800px;
+    width: 100%;
     height: auto;
   }
   
