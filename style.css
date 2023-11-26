@@ -37,14 +37,14 @@ h1 {
   font-size: calc(14px + 0.5vw);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
   .card img {
     width: 80%;
     height: auto;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .card img {
     width: 90%;
   }
